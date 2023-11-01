@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="01-area-initial.fsx" />
+        <None Include="02-area.fsx" />
+        <Compile Include="Types\PositiveFloat.fs" />
+        <Compile Include="Types\Shapes.fs" />
+        <Compile Include="Types\Area.fs" />
+        <Compile Include="Implementations\ShapeFactory.fs" />
+        <Compile Include="Implementations\AreaCalculator.fs" />
+        <Compile Include="Program.fs" />
+    </ItemGroup>
+
+</Project>
