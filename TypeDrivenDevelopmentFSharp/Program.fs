@@ -3,6 +3,9 @@
 open TypeDrivenDevelopmentFSharp.Implementations
 open TypeDrivenDevelopmentFSharp.Types
 
+// Consumer code - console app
+
+// Modeled after `tap` from Reactive Extension (RxJS, Rx.NET, etc.)
 module Result =
     let tap okAction result =
         match result with
